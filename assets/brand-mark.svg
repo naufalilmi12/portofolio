@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 225" width="240" height="225" fill="none">
+  <defs>
+    <!-- Facet Gradients for depth and modern isometric tech ribbon -->
+    <linearGradient id="facet1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D2A4"/>
+      <stop offset="100%" stop-color="#00B894"/>
+    </linearGradient>
+    <linearGradient id="facet2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00B894"/>
+      <stop offset="100%" stop-color="#009778"/>
+    </linearGradient>
+    <linearGradient id="facet3" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#008468"/>
+      <stop offset="100%" stop-color="#00B894"/>
+    </linearGradient>
+    <linearGradient id="facet4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05E3B3"/>
+      <stop offset="100%" stop-color="#00B894"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Geometric Ribbon Fold 1: Main descending diagonal band -->
+  <polygon points="120,18 205,67 150,152 65,103" fill="url(#facet1)" />
+  
+  <!-- Geometric Ribbon Fold 2: Bottom upward facet -->
+  <polygon points="65,103 150,152 120,207 35,158" fill="url(#facet2)" />
+  
+  <!-- Geometric Ribbon Fold 3: Front ascending return band -->
+  <polygon points="35,158 120,207 88,118 3,69" fill="url(#facet3)" opacity="0.95" />
+  
+  <!-- Geometric Ribbon Fold 4: Top apex connector loop -->
+  <polygon points="3,69 88,118 120,18 35,69" fill="url(#facet4)" />
+</svg>
